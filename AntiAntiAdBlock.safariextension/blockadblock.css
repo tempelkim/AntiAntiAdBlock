@@ -1,9 +1,0 @@
-.ua-detected.ua-webkit {
-	display: none !important;
-}
-
-#wrapper-content {
-	filter: none !important;
-	opacity: 1 !important;
-	pointer-events: auto !important;
-}

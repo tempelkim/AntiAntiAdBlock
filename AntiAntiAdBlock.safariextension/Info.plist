@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Boris Kimmina</string>
 	<key>Builder Version</key>
-	<string>12604.1.38.1.7</string>
+	<string>13604.3.5</string>
 	<key>CFBundleDisplayName</key>
 	<string>AntiAntiAdBlock</string>
 	<key>CFBundleIdentifier</key>
@@ -13,15 +13,18 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Content</key>
 	<dict>
-		<key>Stylesheets</key>
-		<array>
-			<string>blockadblock.css</string>
-		</array>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>disable.js</string>
+			</array>
+		</dict>
 	</dict>
 	<key>Description</key>
 	<string>Block spiegel.de's AdBlockBlocker</string>
